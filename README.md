@@ -24,8 +24,10 @@ go mod tidy
 4. サーバーを起動します。
 
 ```bash
-go run main.go
+go run server.go
 ```
+
+5. ブラウザで `http://localhost:8080` にアクセスして、GraphQL Playgroundを使用してクエリを実行できます。
 
 ## 使用ライブラリ
 - [graphql-go](https://github.com/99designs/gqlgen): GraphQLサーバーの実装に使用しています。
